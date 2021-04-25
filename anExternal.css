@@ -1,0 +1,32 @@
+#Par1 {
+    opacity: 0.4;
+}
+#Par1 p {
+    width: 250px;
+    text-align:center;
+    font-family: "Verdana";
+    border:dotted 8px black;
+}
+
+#Par2 p{
+    width: 250px;
+    text-align:center;
+    font-family: "Arial";
+    border:dashed 10px palevioletred;
+    border-radius: 50px;
+    float: right;
+}
+
+.container {
+    position:relative;
+    text-align: center;
+    margin: 20px;
+}
+
+.centered {
+    position: absolute;
+    top: 520px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:aqua;
+  }
