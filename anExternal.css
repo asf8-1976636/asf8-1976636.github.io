@@ -17,7 +17,7 @@
     float: right;
 }
 
-.container {
+.wallpaper {
     position:relative;
     text-align: center;
     margin: 20px;
@@ -25,7 +25,7 @@
 
 .centered {
     position: absolute;
-    top: 520px;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color:aqua;
